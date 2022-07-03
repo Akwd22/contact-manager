@@ -1,8 +1,8 @@
 *.vpp.bak_*
-docs/logic
-docs/storage
-docs/test_logic
-docs/ui
+doxy/logic
+doxy/storage
+doxy/test_logic
+doxy/ui
 .vscode
 
 # Prerequisites
