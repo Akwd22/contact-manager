@@ -5,7 +5,8 @@
 <div align="center">
   <h3 align="center">Contact Manager</h3>
   <p align="center">
-    <a href="#">View Demo (TODO)</a>
+    <a href="#">View Demo (TODO)</a> ·
+    <a href="https://github.com/Akwd22/contact-manager/releases">Get latest release</a>
   </p>
 </div>
 
