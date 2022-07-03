@@ -6,7 +6,7 @@
   <h3 align="center">Contact Manager</h3>
   <p align="center">
     <a href="#">View Demo (TODO)</a> ·
-    <a href="https://github.com/Akwd22/contact-manager/releases">Get latest release</a>
+    <a href="https://github.com/Akwd22/contact-manager/releases/latest">Get latest release</a>
   </p>
 </div>
 
@@ -60,7 +60,8 @@ Moreover, Doxygen docs can be generated in HTML with script file `doxy/run_doxyg
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow the steps:
+If you are on Windows x64, and don't want to compile, you can get latest binaries and skip the next steps.
+Anyways, to get a local copy up and running follow the steps:
 
 ### Prerequisites
 
