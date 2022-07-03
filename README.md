@@ -45,14 +45,15 @@ The development was done by 2 people.
 
 ## Built With
 
-Entire project was built with pure C++ for the business layer and [Qt](https://www.qt.io/) for the storage and UI layers. Database used is SQLite.
+Entire project was built with pure C++ for the business layer and [Qt](https://www.qt.io/) for the storage and UI layers. Database used is [SQLite](https://www.sqlite.org/index.html).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- DOCUMENTATION -->
 ## Documentation
 
-You can find documentation such as the requirements analysis, and UML diagrams in the file `docs/rapport.pdf`.
+You can find documentation such as the requirements analysis, UML diagrams in the folder `docs`.
+Moreover, Doxygen docs can be generated in HTML with script file `doxy/run_doxygen` ([Doxygen](https://doxygen.nl/) must be installed in your system).
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -70,7 +71,7 @@ To setup the project, you will need:
    ```sh
    git clone https://github.com/Akwd22/contact-manager.git
    ```
-2. Compile the project, you have two choice:
+2. Compile the project, you have two choices:
    - From command-line:
      ```sh
      cd src
