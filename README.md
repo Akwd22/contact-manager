@@ -27,7 +27,8 @@
 ## About The Project
 
 <div align="center">
-  <img src="project-image.png">
+  <img src="project-image-1.png">
+  <img src="project-image-2.png">
 </div>
 <br />
 
