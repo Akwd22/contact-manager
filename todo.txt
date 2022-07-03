@@ -1,2 +1,0 @@
-- Photos ne sont pas supprimées quand on réinitialise tout.
-- Photo ne doit pas se copier quand on annule le contact.
