@@ -70,9 +70,16 @@ To setup the project, you will need:
    ```sh
    git clone https://github.com/Akwd22/contact-manager.git
    ```
-2. Compile the project
-
-You are ready to start your Apache server.
+2. Compile the project, you have two choice:
+   - From command-line:
+     ```sh
+     cd src
+     qmake
+     make <debug|release>
+     ```
+     Then, go to `src/out/<debug|release>` and run `ui` executable to run the app, or `test_logic` if you want to run unit tests.
+     
+   - From Qt Creator: import the project file `src/main.pro` with default settings, and you should be good.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
