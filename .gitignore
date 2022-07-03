@@ -37,6 +37,7 @@ docs/ui
 *.exe
 *.out
 *.app
+out/
 
 # C++ objects and libs
 *.slo

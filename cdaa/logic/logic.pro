@@ -26,6 +26,10 @@ HEADERS += \
     todocollection.h \
     todomodel.h
 
+# Output dir.
+CONFIG(debug, debug|release) { DESTDIR = $$_PRO_FILE_PWD_/../out/debug }
+                        else { DESTDIR = $$_PRO_FILE_PWD_/../out/release }
+
 # Default rules for deployment.
 unix {
     target.path = /usr/lib

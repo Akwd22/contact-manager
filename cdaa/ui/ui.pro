@@ -26,6 +26,10 @@ FORMS += \
 RESOURCES += \
     resource.qrc
 
+# Output dir.
+CONFIG(debug, debug|release) { DESTDIR = $$_PRO_FILE_PWD_/../out/debug }
+                        else { DESTDIR = $$_PRO_FILE_PWD_/../out/release }
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
@@ -34,18 +38,18 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 # Libraries.
 win32:CONFIG(release, debug|release): \
     LIBS += \
-        -L$$OUT_PWD/../logic/release/ -llogic \
-        -L$$OUT_PWD/../storage/release/ -lstorage
+        -L$$DESTDIR -llogic \
+        -L$$DESTDIR -lstorage
 
 else:win32:CONFIG(debug, debug|release): \
     LIBS += \
-        -L$$OUT_PWD/../logic/debug/ -llogic \
-        -L$$OUT_PWD/../storage/debug/ -lstorage
+        -L$$DESTDIR -llogic \
+        -L$$DESTDIR -lstorage
 
 else:unix: \
     LIBS += \
-        -L$$OUT_PWD/../logic/ -llogic \
-        -L$$OUT_PWD/../storage/ -lstorage
+        -L$$DESTDIR -llogic \
+        -L$$DESTDIR -lstorage
 
 INCLUDEPATH += \
     $$PWD/../logic \

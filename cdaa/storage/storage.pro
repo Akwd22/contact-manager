@@ -35,6 +35,10 @@ HEADERS += \
     stdqt.h \
     storage_global.h
 
+# Output dir.
+CONFIG(debug, debug|release) { DESTDIR = $$_PRO_FILE_PWD_/../out/debug }
+                        else { DESTDIR = $$_PRO_FILE_PWD_/../out/release }
+
 # Default rules for deployment.
 unix {
     target.path = /usr/lib
@@ -44,15 +48,15 @@ unix {
 # Libraries.
 win32:CONFIG(release, debug|release): \
     LIBS += \
-        -L$$OUT_PWD/../logic/release/ -llogic
+        -L$$DESTDIR -llogic
 
 else:win32:CONFIG(debug, debug|release): \
     LIBS += \
-        -L$$OUT_PWD/../logic/debug/ -llogic
+        -L$$DESTDIR -llogic
 
 else:unix: \
     LIBS += \
-        -L$$OUT_PWD/../logic/ -llogic
+        -L$$DESTDIR -llogic
 
 INCLUDEPATH += \
     $$PWD/../logic
