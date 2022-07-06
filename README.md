@@ -47,7 +47,7 @@ This project principle is simple: an application to manage a list of contacts an
 <!-- CONTEXT -->
 ## Context
 
-This project is an academic project realized during the **third year** of a **Bachelor** of Computer Science.  
+This project is an academic project made during the **third year** of a **Bachelor** of Computer Science.  
 The development was done by 2 people.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
