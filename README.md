@@ -62,7 +62,7 @@ Entire project was built with C++ for the business layer and [Qt](https://www.qt
 <!-- DOCUMENTATION -->
 ## Documentation
 
-You can find documentation such as the requirements analysis, UML diagrams in the folder `docs/`.  
+You can find documentation files such as the requirements analysis, UML diagrams in the folder `docs/`.  
 Doxygen docs can be generated in HTML with script file `doxy/run_doxygen` ([Doxygen](https://doxygen.nl/) must be installed on your system).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
